@@ -12,6 +12,8 @@
 		D0E2C2F62C87425900B08655 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E2C2F52C87425900B08655 /* ViewController.swift */; };
 		D0E2C2FB2C87425A00B08655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E2C2FA2C87425A00B08655 /* Assets.xcassets */; };
 		D0E2C2FE2C87425A00B08655 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D0E2C2FD2C87425A00B08655 /* Base */; };
+		D0E2C3072C8747AA00B08655 /* TicTacToeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E2C3062C8747AA00B08655 /* TicTacToeCollectionViewCell.swift */; };
+		D0E2C30F2C87BAAF00B08655 /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E2C30E2C87BAAF00B08655 /* NavBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D0E2C2FA2C87425A00B08655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0E2C2FD2C87425A00B08655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0E2C2FF2C87425A00B08655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E2C3062C8747AA00B08655 /* TicTacToeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeCollectionViewCell.swift; sourceTree = "<group>"; };
+		D0E2C30E2C87BAAF00B08655 /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,32 @@
 		D0E2C2F02C87425900B08655 /* miniapp */ = {
 			isa = PBXGroup;
 			children = (
+				D0E2C3082C8748D900B08655 /* Models */,
+				D0E2C3052C87460700B08655 /* Components */,
 				D0E2C2F12C87425900B08655 /* AppDelegate.swift */,
 				D0E2C2F32C87425900B08655 /* SceneDelegate.swift */,
+				D0E2C30E2C87BAAF00B08655 /* NavBarView.swift */,
 				D0E2C2F52C87425900B08655 /* ViewController.swift */,
 				D0E2C2FA2C87425A00B08655 /* Assets.xcassets */,
 				D0E2C2FC2C87425A00B08655 /* LaunchScreen.storyboard */,
 				D0E2C2FF2C87425A00B08655 /* Info.plist */,
 			);
 			path = miniapp;
+			sourceTree = "<group>";
+		};
+		D0E2C3052C87460700B08655 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D0E2C3062C8747AA00B08655 /* TicTacToeCollectionViewCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D0E2C3082C8748D900B08655 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +157,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0E2C2F62C87425900B08655 /* ViewController.swift in Sources */,
+				D0E2C3072C8747AA00B08655 /* TicTacToeCollectionViewCell.swift in Sources */,
 				D0E2C2F22C87425900B08655 /* AppDelegate.swift in Sources */,
+				D0E2C30F2C87BAAF00B08655 /* NavBarView.swift in Sources */,
 				D0E2C2F42C87425900B08655 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
